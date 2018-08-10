@@ -13,6 +13,9 @@ import { HrDividerComponent } from './components/hr-divider/hr-divider.component
 import { ListgroupComponent } from './components/listgroup/listgroup.component';
 import { MedialistComponent } from './components/medialist/medialist.component';
 import {StatcardsComponent } from './components/statcards/statcards.component';
+import { ButtonComponent } from './components/button/button.component';
+import { BlocksComponent } from './components/blocks/blocks.component';
+import { TableComponent } from './components/table/table.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -31,7 +34,10 @@ const appRoutes: Routes = [
     HrDividerComponent,
     ListgroupComponent,
     MedialistComponent,
-    StatcardsComponent
+    StatcardsComponent,
+    ButtonComponent,
+    BlocksComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

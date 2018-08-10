@@ -1,0 +1,76 @@
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="sales">
+      <div class="ex-line-graphs">
+         <canvas
+          class="ex-line-graph"
+          width="600" height="350"
+          data-chart="line"
+          data-dataset="[[2500, 3300, 2512, 2775, 2498, 3512, 2925, 4275, 3507, 3825, 3445, 3985]]"
+          data-labels="['','Aug 29','','','Sept 5','','','Sept 12','','','Sept 19','']"
+          data-dark="true">
+        </canvas>
+      </div>
+    </div>
+  
+    <div role="tabpanel" class="tab-pane" id="inventory">
+      <div class="ex-line-graphs">
+        <canvas
+          class="ex-line-graph"
+          width="600" height="400"
+          data-chart="bar"
+          data-dark="true"
+          data-labels="['August','September','October','November','December','January','February']"
+          data-dataset="[[65, 59, 80, 81, 56, 55, 40], [28, 48, 40, 19, 86, 27, 90]]"
+          data-dataset-options="[{label: 'First dataset'}, {label: 'Second dataset'}]">
+        </canvas>
+      </div>
+    </div>
+  
+    <div role="tabpanel" class="tab-pane" id="profit">
+      <div class="row ex-graphs text-center">
+        <div class="col-sm-4 mb-4 mb-sm-0">
+          <div class="w-3 mx-auto">
+            <canvas
+              class="ex-graph"
+              width="200" height="200"
+  
+              data-chart="doughnut"
+              data-dataset="[230, 130]"
+              data-dataset-options="{ borderColor: '#252830', backgroundColor: ['#1ca8dd', '#1bc98e'] }"
+              data-labels="['Returning', 'New']">
+            </canvas>
+          </div>
+          <strong class="text-muted">Traffic</strong>
+          <h3>New vs Returning</h3>
+        </div>
+        <div class="col-sm-4 mb-4 mb-sm-0">
+          <div class="w-3 mx-auto">
+            <canvas
+              class="ex-graph"
+              width="200" height="200"
+              data-chart="doughnut"
+              data-dataset="[330,30]"
+              data-dataset-options="{ borderColor: '#252830', backgroundColor: ['#1ca8dd', '#1bc98e'] }"
+              data-labels="['Returning', 'New']">
+            </canvas>
+          </div>
+          <strong class="text-muted">Revenue</strong>
+          <h3>New vs Recurring</h3>
+        </div>
+        <div class="col-sm-4 mb-4 mb-sm-0">
+          <div class="w-3 mx-auto">
+            <canvas
+              class="ex-graph"
+              width="200" height="200"
+              data-chart="doughnut"
+              data-dataset="[100,260]"
+              data-dataset-options="{ borderColor: '#252830', backgroundColor: ['#1ca8dd', '#1bc98e'] }"
+              data-labels="['Referrals', 'Direct']">
+            </canvas>
+          </div>
+          <strong class="text-muted">Traffic</strong>
+          <h3>Direct vs Referrals</h3>
+        </div>
+      </div>
+    </div>
+  </div>
