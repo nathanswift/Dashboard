@@ -16,6 +16,7 @@ import {StatcardsComponent } from './components/statcards/statcards.component';
 import { ButtonComponent } from './components/button/button.component';
 import { BlocksComponent } from './components/blocks/blocks.component';
 import { TableComponent } from './components/table/table.component';
+import { SignUpComponent } from './pages/sign-up/sign-up.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -37,7 +38,8 @@ const appRoutes: Routes = [
     StatcardsComponent,
     ButtonComponent,
     BlocksComponent,
-    TableComponent
+    TableComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
